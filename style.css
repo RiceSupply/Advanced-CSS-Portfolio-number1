@@ -20,8 +20,6 @@
   padding-top: 15px;
   margin-right: 20px;
   float: right;
-  font-size: 15px;
-
 }
 
 .header li {
@@ -32,4 +30,5 @@
 
 a {
   color:white;
+  font-size: 25px;
 }
