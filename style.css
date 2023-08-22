@@ -5,8 +5,26 @@
 }
 
 .header {
-  font-size: 40px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   background-color: rgb(89, 89, 252);
   color: white;
+}
+
+.header h1 {
+  display: inline-block;
+  font-size: 45px;
+}
+
+.header-list {
+  padding-top: 15px;
+  margin-right: 20px;
+  float: right;
+  font-size: 15px;
+  color:white;
+}
+
+.header li {
+  display: inline;
+  margin-left: 25px;
+  list-style-type: none;
 }
