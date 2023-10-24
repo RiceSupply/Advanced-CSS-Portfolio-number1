@@ -43,14 +43,22 @@ header {
   color: rgb(17, 11, 102);
 }
 
-.box {
+.box-about-content {
   width: 98%;
-  height: 300px;
+  height: auto;
   padding: 15px;
   margin: 15px;
   border: 3.5px solid var(--secondary-border-color);
   border-radius: 15px;
   color:white;
+}
+
+.image {
+  display: block;
+  margin: 30px auto 2rem auto;
+  justify-content: center;
+  max-height:25rem;
+  border: 2px solid white;
 }
 
 .h2 {
@@ -59,18 +67,9 @@ header {
   text-align: center;
   margin: 15px;
 }
-.box p {
-  font-size: 20px;
-  margin: 25px;
-}
-
-/* .box image {
+.box-about-content p {
+  font-size: auto;
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-end;
-  height: 30vh; */ 
-/* } */
-/* .myself-content {
-  color: white;
-
-} */
+  justify-content: space-between;
+}
