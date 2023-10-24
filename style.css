@@ -89,23 +89,51 @@ p {
 .previous-work-container{
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
 }
 
 .work-item-outline {
-  width: 200px;
-  margin: 10px;
+  width: 100%;
+  margin: 20px; 
   border: 3px solid var(--secondary-border-color);
   background-color: var(--secondary-bg-color);
+  justify-content: space-between;
+  font-size: 1.5rem;
+  color: var(--header-text-color);
+  transition: .3s;
+  text-decoration: none;
 }
 
+.work-item-outline a:hover,
+.work-item-outline a.active {
+  color: rgb(17, 11, 102);
+}
+
+
 .work-item-1 {
-  min-height: 300px;
+  box-sizing:content-box;
+  width: 98%;
+  height: auto;
+  border: solid rgb(221, 213, 213) 4px;
+  padding: 5px;
+  min-height: 400px;
 }
 
 .work-item-2 {
-  min-height: 300px;
+  box-sizing:content-box;
+  width: 98%;
+  height: auto;
+  border: solid rgb(221, 213, 213) 4px;
+  padding: 5px;
+  min-height: 400px;
 }
 
 .work-item-3 {
-  min-height: 300px;
+  box-sizing:content-box;
+  width: 98%;
+  height: auto;
+  border: solid rgb(221, 213, 213) 4px;
+  padding: 5px;
+  min-height: 400px;
 }
