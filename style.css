@@ -1,8 +1,9 @@
 :root {
-  --main-bg-color: rgb(21, 13, 58);
-  --secondary-bg-color: rgb(99, 122, 187);
+  --main-bg-color: rgb(21, 21, 24);
+  --secondary-bg-color: rgb(64, 65, 66);
   --main-border-color: white;
   --secondary-border-color: black;
+  --header-text-color: rgb(203, 198, 223);
 }
 
 * {
@@ -22,6 +23,21 @@ header {
   align-items: center;
   padding: 1rem 2rem;
   background-color: var(--secondary-bg-color);
-  border-bottom: 5px solid var(--main-border-color);
-  color:white;
+  border-bottom: 2px dashed var(--main-border-color);
+  color: var(--header-text-color);
+  font-size: 1.5rem;
+}
+
+.navbar a {
+  justify-content: space-between;
+  font-size: 1.5rem;
+  color: var(--header-text-color);
+  margin-left:30px;
+  transition: .5s;
+  text-decoration: none;
+}
+
+.navbar a:hover,
+.navbar a.active {
+  color: rgb(97, 180, 86);
 }
