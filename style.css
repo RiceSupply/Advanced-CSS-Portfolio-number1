@@ -1,16 +1,17 @@
 :root {
-  --main-bg-color: rgb(21, 21, 24);
-  --secondary-bg-color: rgb(64, 65, 66);
-  --main-border-color: white;
-  --secondary-border-color: black;
-  --header-text-color: rgb(203, 198, 223);
+  --main-bg-color:rgb(30, 31, 53);
+  --secondary-bg-color: rgb(22, 57, 92);
+  --main-border-color: rgb(247, 201, 201);
+  --secondary-border-color: rgb(81, 115, 189);
+  --header-text-color: rgb(169, 230, 230);
+  --content-text-color: rgb(30, 31, 53);
 }
 
 * {
   margin:0;
   padding:0;
+  font-family:'Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif';
   box-sizing: border-box;
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 
 body {
@@ -23,7 +24,7 @@ header {
   align-items: center;
   padding: 1rem 2rem;
   background-color: var(--secondary-bg-color);
-  border-bottom: 2px dashed var(--main-border-color);
+  border-bottom: 3px dashed var(--main-border-color);
   color: var(--header-text-color);
   font-size: 1.5rem;
 }
@@ -33,11 +34,43 @@ header {
   font-size: 1.5rem;
   color: var(--header-text-color);
   margin-left:30px;
-  transition: .5s;
+  transition: .4s;
   text-decoration: none;
 }
 
 .navbar a:hover,
 .navbar a.active {
-  color: rgb(97, 180, 86);
+  color: rgb(17, 11, 102);
 }
+
+.box {
+  width: 98%;
+  height: 300px;
+  padding: 15px;
+  margin: 15px;
+  border: 3.5px solid var(--secondary-border-color);
+  border-radius: 15px;
+  color:white;
+}
+
+.h2 {
+  color: white;
+  font-size: 28px;
+  text-align: center;
+  margin: 15px;
+}
+.box p {
+  font-size: 20px;
+  margin: 25px;
+}
+
+/* .box image {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  height: 30vh; */ 
+/* } */
+/* .myself-content {
+  color: white;
+
+} */
