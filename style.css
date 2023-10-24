@@ -10,7 +10,7 @@
 * {
   margin:0;
   padding:0;
-  font-family:'Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif';
+  font-family:'Ariel; Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif';
   box-sizing: border-box;
 }
 
@@ -22,19 +22,20 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  position: sticky;
   padding: 1rem 2rem;
+  width: 100%;
   background-color: var(--secondary-bg-color);
   border-bottom: 3px dashed var(--main-border-color);
   color: var(--header-text-color);
   font-size: 1.5rem;
 }
-
+ 
 .navbar a {
   justify-content: space-between;
   font-size: 1.5rem;
   color: var(--header-text-color);
   margin-left:30px;
+  width: 100%;
   transition: .4s;
   text-decoration: none;
 }
@@ -48,7 +49,7 @@ header {
   width: 98%;
   height: auto;
   padding: 15px;
-  margin: 20px 15px 150px 15px;
+  margin: 20px 15px 100px 15px;
   border: 3.5px solid var(--secondary-border-color);
   box-shadow: 0 0 3px white;
   border-radius: 15px;
@@ -60,9 +61,9 @@ header {
 .h2,
 p {
   color: white;
-  font-size: 1.4em;
+  font-size: 1.5em;
   text-align: center;
-  margin: 15px;
+  margin: 15px 0px 0px 0px;
   
 }
 
@@ -73,67 +74,67 @@ p {
   padding: 25px;
 }
 
-.image {
+.portfolio-image {
   margin: 1.2rem auto;
   max-height:15rem;
   border: 2px solid white;
-}
-
-#Previous-Work {
-  color: white;
-  font-size: 1.4em;
-  text-align: center;
-  margin: 15px;
 }
 
 .previous-work-container{
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  align-items: flex-start;
 }
 
 .work-item-outline {
-  width: 100%;
-  margin: 20px; 
-  border: 3px solid var(--secondary-border-color);
-  background-color: var(--secondary-bg-color);
-  justify-content: space-between;
-  font-size: 1.5rem;
-  color: var(--header-text-color);
-  transition: .3s;
-  text-decoration: none;
+  margin: 10px auto 20px auto;
+  border: 3.5px solid var(--secondary-border-color);
+  box-shadow: 0 0 3px white;
+  border-radius: 15px;
+  color:white;
+  display: flex;
 }
 
-.work-item-outline a:hover,
-.work-item-outline a.active {
-  color: rgb(17, 11, 102);
-}
-
-
-.work-item-1 {
-  box-sizing:content-box;
-  width: 98%;
-  height: auto;
-  border: solid rgb(221, 213, 213) 4px;
-  padding: 5px;
-  min-height: 400px;
-}
-
-.work-item-2 {
-  box-sizing:content-box;
-  width: 98%;
-  height: auto;
-  border: solid rgb(221, 213, 213) 4px;
-  padding: 5px;
-  min-height: 400px;
-}
-
+.work-item-1,
+.work-item-2,
 .work-item-3 {
-  box-sizing:content-box;
   width: 98%;
   height: auto;
-  border: solid rgb(221, 213, 213) 4px;
-  padding: 5px;
-  min-height: 400px;
+  padding: 0px;
+  margin: 20px 15px 40px 15px;
+  border: 3.5px solid var(--secondary-border-color);
+  box-shadow: 0 0 3px white;
+  border-radius: 15px;
+  color:white;
+  display: flex;
+  justify-content: space-around;
+}
+
+.work-item-1 p,
+.work-item-2 p,
+.work-item-3 p {
+  font-size: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 20px;
+}
+
+.work-item-1 a,
+.work-item-2 a,
+.work-item-3 a{
+  color:white;
+}
+
+.work-item-1 a:hover,
+.work-item-1 a.active,
+.work-item-2 a:hover,
+.work-item-2 a.active,
+.work-item-3 a:hover,
+.work-item-3 a.active {
+  color: red;
+}
+.league {
+  margin: 1rem;
+  max-height:20rem;
+  border: 2px solid white;
 }
