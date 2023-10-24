@@ -51,25 +51,28 @@ header {
   border: 3.5px solid var(--secondary-border-color);
   border-radius: 15px;
   color:white;
+  display: flex;
+  justify-content: space-between;
 }
 
-.image {
-  display: block;
-  margin: 30px auto 2rem auto;
-  justify-content: center;
-  max-height:25rem;
-  border: 2px solid white;
-}
-
-.h2 {
+.h2,
+p {
   color: white;
-  font-size: 28px;
+  font-size: 1.4em;
   text-align: center;
   margin: 15px;
+  
 }
+
 .box-about-content p {
   font-size: auto;
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
+  padding: 25px;
+}
+
+.image {
+  margin: 1.2rem auto;
+  max-height:15rem;
+  border: 2px solid white;
 }
