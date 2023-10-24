@@ -1,4 +1,7 @@
-* {
+
+
+
+/* * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
@@ -17,7 +20,7 @@
 }
 
 .header-list {
-  padding-top: 15px;
+  padding-top: 15p
   margin-right: 20px;
   float: right;
 }
@@ -31,4 +34,4 @@
 a {
   color:white;
   font-size: 25px;
-}
+} */
