@@ -1,7 +1,27 @@
 :root {
-  --main-bg-color: rgb(53, 51, 51);
+  --main-bg-color: rgb(21, 13, 58);
   --secondary-bg-color: rgb(99, 122, 187);
   --main-border-color: white;
   --secondary-border-color: black;
 }
 
+* {
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+body {
+  background-color: var(--main-bg-color);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: var(--secondary-bg-color);
+  border-bottom: 5px solid var(--main-border-color);
+  color:white;
+}
