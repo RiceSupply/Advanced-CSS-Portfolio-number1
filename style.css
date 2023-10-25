@@ -138,3 +138,15 @@ p {
   max-height:20rem;
   border: 2px solid white;
 }
+
+.h4 {
+  
+}
+
+.gitHub-container{
+  color: white;
+  font-size: 1em;
+  text-align: flex-start;
+  margin: 15px;
+  margin-bottom: 10px;
+}
