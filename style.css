@@ -45,7 +45,10 @@ header {
   color: rgb(17, 11, 102);
 }
 
-.about-me-content {
+.about-me-content,
+.work-item-1,
+.work-item-2,
+.work-item-3 {
   width: 98%;
   height: auto;
   padding: 15px;
@@ -67,56 +70,21 @@ p {
   
 }
 
-.about-me-content p {
-  font-size: auto;
-  display: flex;
-  justify-content: space-between;
-  padding: 25px;
-}
-
-.portfolio-image {
-  margin: 1.2rem auto;
-  max-height:15rem;
-  border: 2px solid white;
-}
-
-.previous-work-container{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-}
-
-.work-item-outline {
-  margin: 10px auto 20px auto;
-  border: 3.5px solid var(--secondary-border-color);
-  box-shadow: 0 0 3px white;
-  border-radius: 15px;
-  color:white;
-  display: flex;
-}
-
-.work-item-1,
-.work-item-2,
-.work-item-3 {
-  width: 98%;
-  height: auto;
-  padding: 0px;
-  margin: 20px 15px 40px 15px;
-  border: 3.5px solid var(--secondary-border-color);
-  box-shadow: 0 0 3px white;
-  border-radius: 15px;
-  color:white;
-  display: flex;
-  justify-content: space-around;
-}
-
+.about-me-content p,
 .work-item-1 p,
 .work-item-2 p,
 .work-item-3 p {
   font-size: auto;
   display: flex;
   justify-content: space-between;
-  padding: 30px 20px;
+  padding: 25px;
+}
+
+.portfolio-image,
+.png {
+  margin: 1.2rem auto;
+  max-height:15rem;
+  border: 2px solid white;
 }
 
 .work-item-1 a,
@@ -132,15 +100,6 @@ p {
 .work-item-3 a:hover,
 .work-item-3 a.active {
   color: red;
-}
-.png {
-  margin: 1rem;
-  max-height:20rem;
-  border: 2px solid white;
-}
-
-.h4 {
-  
 }
 
 .gitHub-container{
