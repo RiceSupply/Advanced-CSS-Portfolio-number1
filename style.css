@@ -106,3 +106,16 @@ p {
 .information a.active{
   color: orangered;
 }
+
+form {
+  display: flex;
+  font-size: 1.5rem;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  width: 100%;
+  height: auto;
+  padding: 15px;
+  color:white;
+}
