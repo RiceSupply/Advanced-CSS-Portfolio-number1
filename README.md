@@ -19,3 +19,8 @@ This portfolio is interactive from the start.  Atop you will find a list of diff
 ## License
 
 This project utilized VScode as the code editor.  
+
+## Additional Resources
+
+A link for the deployed webpage. 
+https://ricesupply.github.io/Advanced-CSS-Portfolio-number1/
