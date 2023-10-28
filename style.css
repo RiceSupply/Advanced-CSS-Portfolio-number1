@@ -48,7 +48,8 @@ header {
 .about-me-content,
 .work-item-1,
 .work-item-2,
-.work-item-3 {
+.work-item-3,
+.gitHub-container {
   width: 98%;
   height: auto;
   padding: 15px;
@@ -89,7 +90,8 @@ p {
 
 .work-item-1 a,
 .work-item-2 a,
-.work-item-3 a{
+.work-item-3 a,
+.gitHub-container a{
   color:white;
 }
 
@@ -98,14 +100,8 @@ p {
 .work-item-2 a:hover,
 .work-item-2 a.active,
 .work-item-3 a:hover,
-.work-item-3 a.active {
+.work-item-3 a.active,
+.gitHub-container a:hover,
+.gitHub-container a.active {
   color: red;
-}
-
-.gitHub-container{
-  color: white;
-  font-size: 1em;
-  text-align: flex-start;
-  margin: 15px;
-  margin-bottom: 10px;
 }
