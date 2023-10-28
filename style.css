@@ -49,7 +49,8 @@ header {
 .work-item-1,
 .work-item-2,
 .work-item-3,
-.information {
+.information,
+.contact-me {
   width: 98%;
   height: auto;
   padding: 15px;
@@ -62,19 +63,6 @@ header {
   justify-content: space-between;
 }
 
-
-.contact-me{
-  width: 98%;
-  height: auto;
-  padding: 15px;
-  margin: 20px 15px 100px 15px;
-  border: 3.5px solid var(--secondary-border-color);
-  box-shadow: 0 0 3px white;
-  border-radius: 15px;
-  color:white;
-  display: flex;
-  justify-content: space-between;
-}
 .h2,
 .h3,
 p {
@@ -82,25 +70,19 @@ p {
   font-size: 1.5em;
   text-align: center;
   margin: 15px 0px 0px 0px;
-  
 }
 
 .about-me-content p,
 .work-item-1 p,
 .work-item-2 p,
 .work-item-3 p,
-.informationp {
+.information p {
   font-size: auto;
   display: flex;
   justify-content: space-between;
   padding: 25px;
 }
 
-.infomration p ul li {
-  padding-top: 15px;
-  align-items: center;
-  text-decoration: none;
-}
 .portfolio-image,
 .png {
   margin: 1.2rem auto;
@@ -122,5 +104,5 @@ p {
 .work-item-3 a.active
 .information a:hover,
 .information a.active{
-  color: red;
+  color: orangered;
 }
